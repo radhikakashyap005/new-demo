@@ -63,43 +63,52 @@
 
     <!-- header -->
 
-    <header id="header" class="carousel slide" data-bs-ride="carousel" style="padding-top: 104px;">
+    <header id="header" class="carousel slide d-none d-sm-block" data-bs-ride="carousel" style="padding-top: 104px;">
         <div class="d-flex align-items-center carousel-inner">
             <div class="text-center carousel-item active">
                 <img src="https://pictures.kartmax.in/live/2732x1058/cover/quality=6/sites/7lcOi3kEBgRVHB0R5iIq/banner_images/HERRO-6-2f6a8202-eae7-44ae-a6f9-96b23cc88f5c.jpg"
                     class="d-block w-100" alt="...">
-                <h2 class="text-capitalize text-white">best collection</h2>
-                <h1 class="text-uppercase py-2 fw-bold text-white">new arrivals</h1>
-                <a href="#" class="btn mt-3 text-uppercase">shop now</a>
-            </div>
-            <div class="text-center carousel-item">
-                <img src="https://pictures.kartmax.in/live/2732x1058/cover/quality=6/sites/7lcOi3kEBgRVHB0R5iIq/banner_images/Valentines1copy-1fa679cf-8944-47a9-989e-e34882aa0ea4.jpg"
-                    class="d-block w-100" alt="...">
-                <h2 class="text-capitalize text-white">best price & offer</h2>
-                <h1 class="text-uppercase py-2 fw-bold text-white">new season</h1>
-                <a href="#" class="btn mt-3 text-uppercase">buy now</a>
             </div>
             <div class="text-center carousel-item">
                 <img src="https://pictures.kartmax.in/live/2732x1058/cover/quality=6/sites/7lcOi3kEBgRVHB0R5iIq/banner_images/HERRO-5-b37bdaff-c715-4164-b370-822095db7b4f.jpg"
                     class="d-block w-100" alt="...">
-                <h2 class="text-capitalize text-white">best price & offer</h2>
-                <h1 class="text-uppercase py-2 fw-bold text-white">new season</h1>
-                <a href="#" class="btn mt-3 text-uppercase">buy now</a>
             </div>
             <div class="text-center carousel-item">
                 <img src="https://pictures.kartmax.in/live/2732x1058/cover/quality=6/sites/7lcOi3kEBgRVHB0R5iIq/banner_images/HERRO-4-6d89bc0e-cd7b-4768-8eae-05e0fa0f4358.jpg"
                     class="d-block w-100" alt="...">
-                <h2 class="text-capitalize text-white">best price & offer</h2>
-                <h1 class="text-uppercase py-2 fw-bold text-white">new season</h1>
-                <a href="#" class="btn mt-3 text-uppercase">buy now</a>
             </div>
         </div>
 
         <button class="carousel-control-prev" type="button" data-bs-target="#header" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
+            <span class="carousel-control-prev-icon bg-secondary"></span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#header" data-bs-slide="next">
-            <span class="carousel-control-next-icon"></span>
+            <span class="carousel-control-next-icon bg-secondary"></span>
+        </button>
+    </header>
+
+<!-- for small screens -->
+    <header id="header" class="carousel slide" data-bs-ride="carousel" style="padding-top: 104px;">
+        <div class="d-flex align-items-center carousel-inner d-sm d-lg-none">
+            <div class="text-center carousel-item active">
+                <img src="https://pictures.kartmax.in/live/640x820/cover/quality=6/sites/7lcOi3kEBgRVHB0R5iIq/banner_images/4-48c96b5c-f329-4eef-9f95-a194bd47500c.jpg"
+                    class="d-block w-100" alt="...">
+            </div>
+            <div class="text-center carousel-item">
+                <img src="https://pictures.kartmax.in/live/640x820/cover/quality=6/sites/7lcOi3kEBgRVHB0R5iIq/banner_images/1-76ba45d8-2c1b-4a29-a77a-c7e79afc9465.jpg"
+                    class="d-block w-100" alt="...">
+            </div>
+            <div class="text-center carousel-item">
+                <img src="https://pictures.kartmax.in/live/640x820/cover/quality=6/sites/7lcOi3kEBgRVHB0R5iIq/banner_images/1-76ba45d8-2c1b-4a29-a77a-c7e79afc9465.jpg"
+                    class="d-block w-100" alt="...">
+            </div>
+        </div>
+
+        <button class="carousel-control-prev d-sm d-lg-none" type="button" data-bs-target="#header" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-secondary"></span>
+        </button>
+        <button class="carousel-control-next d-sm d-lg-none" type="button" data-bs-target="#header" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-secondary"></span>
         </button>
     </header>
 
