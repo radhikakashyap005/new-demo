@@ -137,3 +137,16 @@
     --bs-text-opacity: 1;
     color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;
 }
+
+.nav-item {
+    padding: 0px 0px;
+  }
+  
+  .dropdown-hover:hover>.dropdown-menu {
+  display: inline-block;
+  }
+  
+  .dropdown-hover>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+  }
