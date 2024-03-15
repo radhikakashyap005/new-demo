@@ -154,3 +154,14 @@
   .navbar-nav{
     padding: 0 0 0 0;
   }
+
+  .list-group-item.active {
+    z-index: 2;
+    color: black;
+    background-color: white;
+  }
+
+  .list-group-item.active :hover {
+    color: black;
+    background-color: grey;
+  }
