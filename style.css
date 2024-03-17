@@ -5,9 +5,7 @@
   }
 }
 
-body{
-  background-color: rgb(228, 228, 228);
-}
+
 
 
 .nav-item {
@@ -188,7 +186,7 @@ h5 {
   line-height: 30px;
 }
 
-#sold-km{
+#sold-km {
   width: 22%;
   margin-top: 30px;
   margin-right: 0px;
@@ -200,9 +198,40 @@ h5 {
   opacity: 2;
 }
 
-
-
-i {
-  font-weight: bold;
+.bi {
+  font-size: 20px;
 }
 
+#accordionExample {
+  border-radius: 0%;
+}
+
+.offers {
+  padding-top: 8.75rem;
+}
+
+.offers .offer-box .offer-image::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  display: block;
+  width: 50%;
+  height: 100%;
+ 
+}
+
+.offers .offer-box .offer-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+.offers .offer-box .offer-info {
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  
+ 
+} 
