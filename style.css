@@ -116,6 +116,29 @@ h5 {
 
 }
 
+#grid {
+  width: 60%;
+}
+
+#content {
+  width: 40%;
+}
+
+@media (min-width: ≥576px) {
+  #grid {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+  #content {
+    width: 40%;
+  }
+
+
+}
+
+
+
 .input-group-text {
   display: flex;
   align-items: center;
@@ -207,7 +230,18 @@ h5 {
 }
 
 .offers {
-  padding-top: 8.75rem;
+  padding-top: 10px;
+}
+
+.similar-products {
+  text-align: center;
+  font-size: 24px;
+  font-family: Nimbus-Sans-D-OT-Regular-Extended;
+  color: rgb(0, 0, 0);
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 30px;
+  margin-left: 0px;
 }
 
 .offers .offer-box .offer-image::before {
@@ -217,7 +251,7 @@ h5 {
   display: block;
   width: 50%;
   height: 100%;
- 
+
 }
 
 .offers .offer-box .offer-image img {
@@ -232,6 +266,6 @@ h5 {
   background-color: white;
   position: absolute;
   width: 100%;
-  
- 
-} 
+
+
+}
