@@ -318,3 +318,15 @@ h5 {
   height: 46px;
   border-radius: 50%;
 }
+
+/* footer */
+
+.footer-index{
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+
+}
