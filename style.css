@@ -321,7 +321,7 @@ h5 {
 
 /* footer */
 
-.footer-index{
+#footer-index {
   width: 85%;
   margin: auto;
   display: flex;
@@ -329,4 +329,45 @@ h5 {
   align-items: flex-start;
   justify-content: space-between;
 
+}
+
+#footer-col {
+  flex-basis: 25%;
+  padding: 10px;
+}
+
+#footer-col:nth-child(1), #footer-col:nth-child(2){
+  flex-basis: 15%;
+}
+
+form {
+  padding-bottom: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 16px;
+
+}
+
+form .bi {
+  background-color: transparent;
+  color: rgba(33, 37, 41, 0.75);
+
+}
+
+.button-sub {
+  border: none;
+  background-color: transparent;
+  color: black;
+}
+
+p {
+  color: rgba(33, 37, 41, 0.75);
+}
+
+@media (max-width : 700px) {
+  footer{
+    bottom: unset;
+  }
 }
